@@ -27,7 +27,18 @@ console.log(arrObj.b);
 const obj = {
     "Anna": 500,
     "Alice": 800
-
-
-
 }; 
+
+//дополнительное задание
+
+const storeName = "Tom"
+const storeDescription = {
+    budget: 10000,
+    employees: ["tom", "ron", "serv"],
+    products: {
+        "chess": 800,
+        "milk": 200
+    },
+    open: true
+}
+console.log(storeDescription.products);
