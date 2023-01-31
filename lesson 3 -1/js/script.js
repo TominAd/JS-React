@@ -1,4 +1,4 @@
-"use sctrict";
+"use strict";
 
 const arr = [1, 2, 3]; //массивы
 arr[10] = "3456";
