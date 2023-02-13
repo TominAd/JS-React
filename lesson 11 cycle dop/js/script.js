@@ -15,17 +15,17 @@ for (let i = 0; i < 3; i++){
 // *****
 // ******
 
-let rezult = "";
-const length = 7;
+// let rezult = "";
+// const length = 7;
 
-for (let i = 1; i < length; i++){
+// for (let i = 1; i < length; i++){
     
-    for (let j = 0; j < i; j++){
-        rezult += "*";
-    }
+//     for (let j = 0; j < i; j++){
+//         rezult += "*";
+//     }
 
-    rezult += "\n"
-}
+//     rezult += "\n"
+// }
 
 console.log(rezult);
 
@@ -57,3 +57,21 @@ for (let i = 2; i <= 10; i++){
    console.log(i);
     }
 }
+
+let rezult = "";
+const lines = 5;
+
+for (let i = 0; i <= lines; i++){
+    
+    for (let j = 0; j < lines - i; j++){
+        rezult += " ";
+    }
+    
+    for (let j = 0; j < 2 * i + 1; j++){
+        rezult += "*";
+    }
+
+    rezult += "\n"
+}
+
+console.log(rezult);
